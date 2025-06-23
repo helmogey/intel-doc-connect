@@ -23,11 +23,19 @@ const Index = () => {
       {/* Header */}
       <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center">
-              <Brain className="w-6 h-6 text-white" />
+          <div className="flex items-center space-x-4">
+            <img 
+              src="/lovable-uploads/ace1d83d-6c99-4942-8387-7a42ee1868e6.png" 
+              alt="NEC Technologies" 
+              className="h-12 w-auto"
+            />
+            <div className="border-l border-slate-300 h-12"></div>
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center">
+                <Brain className="w-6 h-6 text-white" />
+              </div>
+              <h1 className="text-2xl font-bold text-slate-800">Intelligent Document Chat</h1>
             </div>
-            <h1 className="text-2xl font-bold text-slate-800">Intelligent Document Chat</h1>
           </div>
           <Button variant="outline" className="gap-2">
             <LogOut className="w-4 h-4" />

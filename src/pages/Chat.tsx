@@ -158,9 +158,17 @@ const Chat = () => {
         {/* Header */}
         <div className="bg-white/90 backdrop-blur-sm border-b border-slate-200 p-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <Brain className="w-6 h-6 text-blue-600" />
-              <h1 className="text-xl font-semibold text-slate-800">Document Chat</h1>
+            <div className="flex items-center space-x-4">
+              <img 
+                src="/lovable-uploads/ace1d83d-6c99-4942-8387-7a42ee1868e6.png" 
+                alt="NEC Technologies" 
+                className="h-8 w-auto"
+              />
+              <div className="border-l border-slate-300 h-8"></div>
+              <div className="flex items-center space-x-3">
+                <Brain className="w-6 h-6 text-blue-600" />
+                <h1 className="text-xl font-semibold text-slate-800">Document Chat</h1>
+              </div>
             </div>
             
             <div className="flex items-center space-x-4">
